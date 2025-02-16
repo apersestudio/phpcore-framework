@@ -1,0 +1,29 @@
+{
+  "name": "apersestudio/phpcore-framework",
+  "description": "PHPCore framework libraries",
+  "type": "library",
+  "version":"1.0.0",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "PC\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jaime Zaballa Espinosa",
+      "email": "jaime@apersestudio.com"
+    }
+  ],
+  "scripts": {
+    "post-package-install": []
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.4",
+    "fakerphp/faker": "^1.23"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.3"
+  }
+}
